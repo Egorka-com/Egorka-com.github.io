@@ -32,6 +32,6 @@ function OnInit()
 let userInfo = document.getElementById("userInfo");
 
 let p = document.createElement("p");
-p.innerText = `${app.initDataUnsafe.user.first_name} {app.initDataUnsafe.user.last_name}`
+p.innerText = `${app.initDataUnsafe.user.first_name} ${app.initDataUnsafe.user.last_name}`;
 
 userInfo.appendChild(p);
